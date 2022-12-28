@@ -1,0 +1,38 @@
+
+
+
+
+body{
+    background-image: url(./Test/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.Delete{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.Price{
+    text-align: center;
+    width: 50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.Tot{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 550px;
+ }
